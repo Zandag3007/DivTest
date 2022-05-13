@@ -1,0 +1,69 @@
+div{
+  height: 500px;
+  margin: 5%;
+  padding: 70px;
+  font-family: Courier New, monospace;
+  text-align: center;
+}
+.noMargin{
+  margin: 0;
+}
+.topContainer{
+  background-color: black;
+  color: white;
+}
+.middleContainer{
+  color: black;
+  border: solid 20px;
+  padding: 0px;
+  position: relative;
+  left: 0px;
+}
+.bottomContainer{
+  background-color: yellow;
+}
+.geoImage1{
+  position: relative;
+  top: 0;
+  height: 100px;
+  background-color: red;
+}
+.geoImage2{
+  position: relative;
+  top: 200px;
+  height: 100px;
+  background-color: blue;
+}
+.geoImage3{
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  background-color: green;
+/*.bubbleSize{
+  width: 100%;
+  height: 100%;
+}
+.red{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.blue{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.yellow{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}*/
