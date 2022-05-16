@@ -22,22 +22,20 @@ div{
 .bottomContainer{
   background-color: yellow;
 }
-.geoImage1{
+.geoImage{
   position: relative;
-  top: 0;
   height: 100px;
+}
+.geoImage1{
+  top: 0;
   background-color: red;
 }
 .geoImage2{
-  position: relative;
   top: 200px;
-  height: 100px;
   background-color: blue;
 }
 .geoImage3{
-  position: relative;
   bottom: 0;
-  height: 100px;
   background-color: green;
 /*.bubbleSize{
   width: 100%;
