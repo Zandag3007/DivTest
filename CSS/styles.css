@@ -15,9 +15,9 @@ div{
 .middleContainer{
   color: black;
   border: solid 20px;
-  padding: 0px;
+  padding: 0;
   position: relative;
-  left: 0px;
+  left: 0;
 }
 .bottomContainer{
   background-color: yellow;
