@@ -1,3 +1,7 @@
+:root {
+  --almost-black: #252121;
+}
+
 div{
   height: 500px;
   margin: 5%;
@@ -9,11 +13,11 @@ div{
   margin: 0;
 }
 .topContainer{
-  background-color: black;
+  background-color: var(--almost-black);
   color: white;
 }
 .middleContainer{
-  color: black;
+  color: var(--almost-black);
   border: solid 20px;
   padding: 0;
   position: relative;
