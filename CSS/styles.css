@@ -3,35 +3,16 @@
   --GhostWhite: #F8F8FF;
 }
 
-.aboutMe {
-  float: left;
-  display: inline-block;
+.noMargin {
+  margin: 0;
 }
 
-.bottomContainer {
-  background-color: yellow;
+.positionAbsolute {
+  position: absolute;
 }
 
-.container-h1 {
-  font-size: 2rem;
-  top: 150px;
-  right: 110px;
-}
-
-.container-h2 {
-  font-size: 1.5rem;
-}
-
-.container-p {
-  font-size: 1rem;
-  top: 210px;
-  right: 30px;
-}
-
-.container-image {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+.positionRelative {
+  position: relative;
 }
 
 div {
@@ -39,14 +20,42 @@ div {
   text-align: center;
 }
 
-.mainDiv{
+.mainDiv {
   height: 500px;
   margin: 5%;
   padding: 70px;
 }
 
-.subDiv{
+.mainDiv > div {
   width: 50%;
+}
+
+h1 {
+  font-size: 2rem;
+  top: 150px;
+  right: 110px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  top: 210px;
+  right: 30px;
+}
+
+.topContainer {
+  background-color: var(--almost-black);
+  color: var(--GhostWhite);
+  padding: 0;
+}
+
+.container-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .middleContainer {
@@ -56,24 +65,15 @@ div {
   left: 0;
 }
 
-.noMargin {
-  margin: 0;
-}
-
-.positionAbsolute {
-  position: absolute;
-}
-
-.positionRelative{
-  position: relative;
+.aboutMe {
+  float: left;
+  display: inline-block;
 }
 
 .skillSet {
   float: right;
 }
 
-.topContainer {
-  background-color: var(--almost-black);
-  color: var(--GhostWhite);
-  padding: 0;
+.bottomContainer {
+  background-color: yellow;
 }
