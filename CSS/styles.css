@@ -9,6 +9,7 @@
 
 .positionAbsolute {
   position: absolute;
+  width: 200px;
 }
 
 .positionRelative {
@@ -26,8 +27,11 @@ div {
   padding: 70px;
 }
 
-.mainDiv > div {
-  width: 50%;
+.mainDiv>div {
+  width: 45%;
+  padding: 30px;
+  text-align: left;
+  line-height: 2rem;
 }
 
 h1 {
@@ -66,12 +70,17 @@ p {
 }
 
 .aboutMe {
-  float: left;
-  display: inline-block;
+  left: 0;
 }
 
 .skillSet {
-  float: right;
+  right: 0;
+}
+
+.geometricalShape {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
 }
 
 .bottomContainer {
