@@ -1,6 +1,6 @@
 :root {
   --almost-black: #252121;
-  --GhostWhite: #F8F8FF;
+  --ghost-white: #F8F8FF;
 }
 
 .noMargin {
@@ -48,7 +48,7 @@ p {
 
 .topContainer {
   background-color: var(--almost-black);
-  color: var(--GhostWhite);
+  color: var(--ghost-white);
   padding: 0;
 }
 
