@@ -22,15 +22,25 @@ div {
 
 .mainDiv {
   height: 500px;
-  margin: 5%;
+  margin: 20px;
   padding: 70px;
 }
 
-.mainDiv>div {
+.mainDiv > div {
   width: 45%;
   padding: 30px;
   text-align: left;
   line-height: 2rem;
+}
+
+@media screen and (min-width: 960px) {
+  .mainDiv {
+    margin: 30px;
+  }
+
+  .mainDiv > div {
+    width: 50%;
+  }
 }
 
 h1 {
