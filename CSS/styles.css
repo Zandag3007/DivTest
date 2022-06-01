@@ -61,7 +61,7 @@ p {
 
 .top-container {
   background-color: var(--almost-black);
-  color: var(--GhostWhite);
+  color: var(--ghost-white);
   padding: 0;
 }
 
