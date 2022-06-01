@@ -22,8 +22,14 @@ div {
 
 .mainDiv {
   height: 500px;
-  margin: 5%;
+  margin: 20px;
   padding: 70px;
+}
+
+@media screen and (min-width: 960px) {
+  .mainDiv {
+    margin: 30px;
+  }
 }
 
 .mainDiv > div {
