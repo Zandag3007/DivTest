@@ -1,9 +1,9 @@
 :root {
   --almost-black: #252121;
-  --GhostWhite: #F8F8FF;
+  --ghost-white: #F8F8FF;
 }
 
-.noMargin {
+.no-margin {
   margin: 0;
 }
 
@@ -11,7 +11,7 @@
   position: absolute;
 }
 
-.positionRelative {
+.position-relative {
   position: relative;
 }
 
@@ -20,13 +20,13 @@ div {
   text-align: center;
 }
 
-.mainDiv {
+.main-div {
   height: 500px;
   margin: 20px;
   padding: 70px;
 }
 
-.mainDiv > div {
+.main-div > div {
   width: 45%;
   padding: 30px;
   text-align: left;
@@ -34,11 +34,11 @@ div {
 }
 
 @media screen and (min-width: 960px) {
-  .mainDiv {
+  .main-div {
     margin: 30px;
   }
 
-  .mainDiv > div {
+  .main-div > div {
     width: 50%;
   }
 }
@@ -59,7 +59,7 @@ p {
   right: 30px;
 }
 
-.topContainer {
+.top-container {
   background-color: var(--almost-black);
   color: var(--GhostWhite);
   padding: 0;
@@ -71,23 +71,23 @@ p {
   object-fit: cover;
 }
 
-.middleContainer {
+.middle-container {
   color: var(--almost-black);
   border: solid 10px;
   padding: 0;
   left: 0;
 }
 
-.skillSet {
+.skill-set {
   right: 0;
 }
 
-.geometricalShape {
+.geometrical-shape {
   width: 20%;
   float: left;
   margin-right: 30px;
 }
 
-.bottomContainer {
+.bottom-container {
   background-color: yellow;
 }
