@@ -1,6 +1,6 @@
 :root {
   --almost-black: #252121;
-  --ghost-white: #F8F8FF;
+  --GhostWhite: #F8F8FF;
 }
 
 .noMargin {
@@ -22,7 +22,7 @@ div {
 
 .mainDiv {
   height: 500px;
-  margin: 20px;
+  margin: 5%;
   padding: 70px;
 }
 
@@ -31,14 +31,6 @@ div {
   padding: 30px;
   text-align: left;
   line-height: 2rem;
-
-@media screen and (min-width: 960px) {
-  .mainDiv {
-    margin: 30px;
-  }
-  .mainDiv > div {
-  width: 50%;
-  }
 }
 
 h1 {
@@ -59,7 +51,7 @@ p {
 
 .topContainer {
   background-color: var(--almost-black);
-  color: var(--ghost-white);
+  color: var(--GhostWhite);
   padding: 0;
 }
 
