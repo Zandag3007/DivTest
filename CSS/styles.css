@@ -3,15 +3,15 @@
   --ghost-white: #F8F8FF;
 }
 
-.noMargin {
+.no-margin {
   margin: 0;
 }
 
-.positionAbsolute {
+.position-absolute {
   position: absolute;
 }
 
-.positionRelative {
+.position-relative {
   position: relative;
 }
 
@@ -20,20 +20,27 @@ div {
   text-align: center;
 }
 
-.mainDiv {
+.main-div {
   height: 500px;
   margin: 20px;
   padding: 70px;
 }
 
-@media screen and (min-width: 960px) {
-  .mainDiv {
-    margin: 30px;
-  }
+.main-div > div {
+  width: 45%;
+  padding: 30px;
+  text-align: left;
+  line-height: 2rem;
 }
 
-.mainDiv > div {
-  width: 50%;
+@media screen and (min-width: 960px) {
+  .main-div {
+    margin: 30px;
+  }
+
+  .main-div > div {
+    width: 50%;
+  }
 }
 
 h1 {
@@ -52,7 +59,7 @@ p {
   right: 30px;
 }
 
-.topContainer {
+.top-container {
   background-color: var(--almost-black);
   color: var(--ghost-white);
   padding: 0;
@@ -64,22 +71,23 @@ p {
   object-fit: cover;
 }
 
-.middleContainer {
+.middle-container {
   color: var(--almost-black);
   border: solid 10px;
   padding: 0;
   left: 0;
 }
 
-.aboutMe {
+.skill-set {
+  right: 0;
+}
+
+.geometrical-shape {
+  width: 20%;
   float: left;
-  display: inline-block;
+  margin-right: 30px;
 }
 
-.skillSet {
-  float: right;
-}
-
-.bottomContainer {
+.bottom-container {
   background-color: yellow;
 }
